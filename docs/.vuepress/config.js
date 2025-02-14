@@ -1,4 +1,14 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around'
+    title: 'Drgeek',
+    description:"Hello Drgeek",
+    themeConfig: {
+        sidebar: [
+            '/',
+            '/componentDocs/card',
+
+        ],
+        logo: '/assets/logo.png',
+    },
+
+
 }
