@@ -6,7 +6,7 @@ module.exports = {
             '/',
             '/componentDocs/card',
         ],
-        logo: '/assets/logo.png',
+        
     },
 
 
