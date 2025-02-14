@@ -5,7 +5,6 @@ module.exports = {
         sidebar: [
             '/',
             '/componentDocs/card',
-
         ],
         logo: '/assets/logo.png',
     },
