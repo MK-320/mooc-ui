@@ -20,7 +20,8 @@
     "bulid:js": "webpack --config  webpack.config.js",
     "bulid:css": "npx gulp sass",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash -c 'sh deploy.sh'"
   },
   "dependencies": {
     "cache-loader": "^4.1.0",
@@ -32,13 +33,14 @@
     "gulp-sass": "^6.0.0",
     "mooc-ui-drgeek": "^0.2.4",
     "vue": "^2.6.14"
-  },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+  },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "^4.5.19",
+    "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "sass": "^1.84.0",
